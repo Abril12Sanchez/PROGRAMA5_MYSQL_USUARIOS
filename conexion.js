@@ -35,7 +35,7 @@ conexion.sync({force:false})
 
 .catch((err)=>{
     console.log("error al conectarse a MYSQL de Planet"+err);
-    console.log("Intentar una conexion Local");
+    console.log("Intentar nuevamente");
     //si no jala, jalamos el local
 //  db=process.env.DB_LOCAL;
 //  usuario=process.env.USUARIO_MYSQL_LOCAL;
